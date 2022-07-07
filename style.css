@@ -110,10 +110,16 @@ header{
     font-family: 'Mulish', sans-serif;
 }
 .why-choose-us-row{
-   background-color: #CCC9C8;
+   background-color: rgba(255, 254, 253, 0.982);
 }
 .kids-img{
-    height: 400px;
+    height: 450px;
+}
+.progress{
+    height: 6px;
+}
+.progress-bar{
+    
 }
 @media(min-width:992px){
     .navs-container{
