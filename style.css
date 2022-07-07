@@ -12,12 +12,10 @@ header{
     
 }
 nav{
-    /* background-color: red; */
-    /* padding: 80px; */
+    
     padding: 0px !important;
     background-color: rgba(215, 212, 212, 0.772);
-    overflow-x: hidden;
-    
+    overflow-x: hidden;  
 }
 .navs-container{
     padding: 5px!important;
@@ -37,9 +35,6 @@ nav{
     /* width: 60%;
     margin: 10px auto; */
     font-size: 1.5rem;
-  
-    
-    
 }
 /* .navbar-collapse{
     flex-grow: 0;
@@ -57,9 +52,7 @@ nav{
     color: white;
    
 }
-header{
-    
-}
+
 .banner-text .banner-flex-text h1{
     font-family: 'Mulish', sans-serif;
     font-size:40px;
@@ -94,9 +87,7 @@ header{
     display: flex;
     justify-content:center;
     align-items: center;
-    
-    
-    
+ 
 }
 .chose-us-img{
     height: 300px;
@@ -114,13 +105,47 @@ header{
 }
 .kids-img{
     height: 450px;
+    width: 100%;
 }
 .progress{
-    height: 6px;
+    height:6px;
 }
 .progress-bar{
     
 }
+.skills .practical-knowledge .badge{
+    
+    /* top: -10px; */
+    color: rgb(0, 0, 0);  
+    
+    position: absolute;
+    right:46px;
+}
+.skills .passed-percentage .badge{
+    
+    /* top: -10px; */
+    color: rgb(0, 0, 0);  
+    
+    position: absolute;
+    right:26px;
+}
+.skills .Happy-Students .badge{
+    
+    /* top: -10px; */
+    color: rgb(0, 0, 0);     
+    position: absolute;
+    right:10px;
+}
+.Certifie-Institute{
+    width: 32px;
+    height: 31px;
+    color: red;
+}
+.Qualifed-Teachers img{
+    width: 32px;
+    height: 31px;
+}
+
 @media(min-width:992px){
     .navs-container{
        
