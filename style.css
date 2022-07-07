@@ -112,6 +112,9 @@ header{
 .why-choose-us-row{
    background-color: #CCC9C8;
 }
+.kids-img{
+    height: 400px;
+}
 @media(min-width:992px){
     .navs-container{
        
