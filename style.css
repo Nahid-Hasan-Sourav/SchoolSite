@@ -1,4 +1,92 @@
-.logo{
-    width: 100px;
-    height: 80px;
+*{
+    margin: 0;
+    padding: 0;
 }
+header{
+    background-image: url("Images/FemaleTeacher.jpg");
+    height:500px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+nav{
+    /* background-color: red; */
+    /* padding: 80px; */
+    padding: 0px !important;
+    background-color: rgba(215, 212, 212, 0.772);
+    
+}
+.navs-container{
+    padding: 5px!important;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    /* margin-left: 80px; */
+}
+.nav-icons{
+    font-size: 38PX;
+    color: orange;
+}
+.nav-item a{
+    margin: 10px;
+   
+    /* width: 60%;
+    margin: 10px auto; */
+    font-size: 1.5rem;
+  
+    
+    
+}
+/* .navbar-collapse{
+    flex-grow: 0;
+}
+.container-fluid .my-con{
+    justify-content:space-around;
+} 
+*/
+
+.nav-item a:hover{
+    background-color: blue;
+    transform: scale(1.09);
+    border-radius: 5px;
+    transition: 0.4s;
+    color: white;
+   
+}
+
+.banner-text .banner-flex-text h1{
+    font-family: 'Mulish', sans-serif;
+    font-size:40px;
+    color: white;
+}
+.banner-text{
+    color: white;
+    display: flex;
+    justify-content:center;
+   
+}
+.banner-flex-text{
+    padding: 20px;
+    align-items:center;
+    width: 550px;
+    height: 400px;
+    
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+
+@media(min-width:992px){
+    .navs-container{
+       
+        
+    }
+    .navbar-brand{
+        margin-left:-100px;
+    }
+}     
