@@ -79,6 +79,7 @@ header{
     justify-content:center;
     height: 400px; 
     position: absolute;
+    z-index: 1;
     top: 72px;
     
    
