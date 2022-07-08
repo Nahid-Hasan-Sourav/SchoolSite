@@ -145,7 +145,64 @@ nav{
     width: 32px;
     height: 31px;
 }
-
+.Best-Categories h1{
+    font-size:42px;
+    font-weight: 800;
+    font-family:Mulish, sans-serif
+}
+.Best-Categories-card-img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #F8F8F8;
+} 
+.Our-Best-Categories-row-1 h1{
+    font-size: 24px;
+    font-weight:800;
+    font-family: 'Mulish', sans-serif;
+}
+.Our-Best-Categories-row-1 p{
+    font-size: 15px;
+    color: #DC3545;
+    font-family: 'Mulish', sans-serif;
+}
+.Our-Best-Categories-row-2 p{
+    font-size: 15px;
+    color: #DC3545;
+    font-family: 'Mulish', sans-serif;
+}
+.Our-Best-Categories-row-2 h1{
+    font-size: 24px;
+    font-weight:800;
+    font-family: 'Mulish', sans-serif;
+}
+.Best-Categories-card-img img{
+    width: 150px;
+    height: 150px;
+}
+.cards{
+    border:1.5px dashed rgba(228, 225, 225, 0.936);
+    border-radius: 15px;
+}
+.Best-Categories .card-body h1{
+    color: #111111;
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.Our-Best-Categories-form h1{
+    font-size: 32px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+}
+.book-seat{
+    margin-bottom: 7px;
+}
 @media(min-width:992px){
     .navs-container{
        
