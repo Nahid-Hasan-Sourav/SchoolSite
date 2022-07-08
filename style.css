@@ -208,10 +208,12 @@ nav{
 }
 .Most-Featured-Courses-row-1-text{
     width: 530px;
-    
     margin: 0 auto;
     padding: 10px;
     text-align: center;
+}
+.Most-Featured-Courses-row-1-text h1{
+    margin-bottom:10px;
 }
 .Most-Featured-Courses-container{
     background-color: #F8F8F8;
@@ -255,6 +257,9 @@ nav{
 
     
 }
+hr{
+    margin-top: 8px;
+}
 
 @media(min-width:992px){
     .navs-container{
@@ -267,7 +272,10 @@ nav{
 } 
 @media (min-width: 768px){
     .col-lg-7 h5{
-        margin-left:-166px;
+        margin-left:-241px;
         margin-top: 17px;
+    }
+    .propic img{
+        margin-left: -44px;
     }
 }    
