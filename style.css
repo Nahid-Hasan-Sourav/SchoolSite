@@ -272,7 +272,7 @@ hr{
 } 
 @media (min-width: 768px){
     .col-lg-7 h5{
-        margin: left -236px !important;;
+        margin-left:-236px !important;;
         margin-top: 17px !important;
     }
     .propic img{
