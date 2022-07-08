@@ -200,9 +200,62 @@ nav{
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
 }
+#Our-Best-Categories-form .cards{
+    background-color: #F8F8F8;
+}
 .book-seat{
     margin-bottom: 7px;
 }
+.Most-Featured-Courses-row-1-text{
+    width: 530px;
+    
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+.Most-Featured-Courses-container{
+    background-color: #F8F8F8;
+}
+.Most-Featured-Courses-row-1-text h1{
+    font-size: 42px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+}
+.Most-Featured-Courses-card-1{
+    
+}
+.Most-Featured-Courses-card-1 img{
+    width: 100%;
+    height:250px;
+}
+.badge-all{
+    top: -16px;
+    left: 37px;
+    /* height: 37px;
+    line-height:1.5;
+    width: 120px; */
+    
+    /* background-color: #DC3545; */
+}
+.rating i{
+    margin: 0px 6px 0px 0px;
+    color: red;
+}
+.propic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.propic img{
+    width: 72px;
+    height: 72px;
+    display: block;
+    margin: 0 auto;
+
+    
+}
+
 @media(min-width:992px){
     .navs-container{
        
@@ -211,4 +264,10 @@ nav{
     .navbar-brand{
         margin-left:-100px;
     }
-}     
+} 
+@media (min-width: 768px){
+    .col-lg-7 h5{
+        margin-left:-166px;
+        margin-top: 17px;
+    }
+}    
