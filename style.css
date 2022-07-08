@@ -267,15 +267,15 @@ hr{
         
     }
     .navbar-brand{
-        margin-left:-100px;
+        margin-left:-100px !important;
     }
 } 
 @media (min-width: 768px){
     .col-lg-7 h5{
-        margin-left:-236px;
-        margin-top: 17px;
+        margin: left -236px !important;;
+        margin-top: 17px !important;
     }
     .propic img{
-        margin-left: -44px;
+        margin-left: -44px !important;
     }
 }    
