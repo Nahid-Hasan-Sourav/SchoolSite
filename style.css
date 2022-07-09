@@ -244,23 +244,75 @@ nav{
     color: red;
 }
 .propic{
-    width: 100px;
+    /* width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 0 auto; */
+    padding: 0px 0px;
+    
+}
+.propic-text{
+    padding: 0px 0px;
+}
+.test img{
+    width: 40px;
+    height: 40px;
+   
+}
+.test h5{
+    display: inline-block;
 }
 .propic img{
-    width: 72px;
-    height: 72px;
-    display: block;
-    margin: 0 auto;
+    width: 52px;
+    height: 52px;
+   
+    /* display: block;
+    margin: 0 auto; */
 
     
 }
-hr{
-    margin-top: 8px;
+.hr-all{
+    
 }
+.review-image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid orange;
+    border-radius: 54px;
 
+}
+.carousel-item p{
+    font-size: 16px;
+    font-weight:bold;
+}
+#student-review{
+    /* overflow-x: hidden; */
+    margin-bottom: 40px;
+}
+.student-review-text{
+    font-size: 42px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+.carousel-control-prev-icon{
+    background-color: red;
+    color: green;
+}
+.carousel-item  p{
+    
+    text-align: center;
+}
+.card-body h6{
+    color: orange;
+}
+span i{
+  
+    color: orange;
+}
+/* .carousel-item{
+    overflow-x: hidden;
+} */
 @media(min-width:992px){
     .navs-container{
        
@@ -272,10 +324,10 @@ hr{
 } 
 @media (min-width: 768px){
     .col-lg-7 h5{
-        margin-left:-236px !important;;
-        margin-top: 17px !important;
+        /* margin-left:-236px !important;;
+        margin-top: 17px !important; */
     }
     .propic img{
-        margin-left: -44px !important;
+        /* margin-left: -44px !important; */
     }
 }    
