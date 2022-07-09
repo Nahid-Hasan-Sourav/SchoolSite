@@ -299,6 +299,9 @@ nav{
     background-color: red;
     color: green;
 }
+.col-sm-12{
+    margin-bottom:15px;
+}
 .carousel-item  p{
     
     text-align: center;
