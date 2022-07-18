@@ -287,7 +287,7 @@ nav{
 }
 #student-review{
     /* overflow-x: hidden; */
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 .student-review-text{
     font-size: 42px;
@@ -316,6 +316,35 @@ span i{
 /* .carousel-item{
     overflow-x: hidden;
 } */
+
+/* FOOTER-STYLE-START-HERE */
+footer{
+    /* background-color:rgb(39, 39, 219); */
+}
+.footer-container{
+    /* background-color: #44286F; */
+    background-color: rgba(40, 40, 218, 0.779);
+    padding: 30px 0px 10px 0px;
+}
+.footer h1{
+    font-size: 32px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.footer-subscription{
+    border-radius:30px;
+}
+#footer-subscription p{
+    color: white;
+}
+hr{
+    width: 85%;
+    margin: 15px auto;
+    border-top: none;
+    border: 1px solid white;
+}
+
 @media(min-width:992px){
     .navs-container{
        
@@ -333,4 +362,9 @@ span i{
     .propic img{
         /* margin-left: -44px !important; */
     }
+    
+
 }    
+@media (min-width: 400px) {
+   
+}
